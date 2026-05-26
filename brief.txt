@@ -1,0 +1,254 @@
+WEST WAVE CREATIVE
+Website design & build
+Website Build Brief
+Accountable Allies, LLC
+Prepared for Jordan   •   May 2026
+1. Project at a glance
+
+2. About Patti (the person we’re selling)
+
+The single most important thing to internalize before you write a line of code: Patti is the product. The existing site reads as “competent corporate” — indistinguishable from every faceless online bookkeeping service. Patti’s competitive advantage is that she is a real, experienced, warm human who picks up her own phone. Your job in this build is to make that obvious on the page within five seconds of arrival.
+What we know about her:
+Decades of experience as a strategic bookkeeper/accountant.
+Meticulous by nature — she keeps records the way her future self will thank her for.
+Believes “sales” is fake — i.e., convincing someone to do what they don’t want. She will not tolerate a hypey, pushy tone anywhere on the site.
+Treats clients better than she’s been treated. Her tagline-energy: she wants people to exhale when they read her words.
+Strict about her scope (see Section 5) — she does NOT want the site to suggest she does anything outside strategic bookkeeping.
+Has a dry sense of humor and tells good stories about herself — see Section 3, these are the heart of the copy.
+Her own framing for all of this — and it should anchor the homepage and About page — is the line she opens her BNI talk with: “I’ve done life the hard way.” The three stories in Section 3 are the substance behind that claim. She closes the same talk with: “Because I’ve done things the hard way, I’ve learned how to make things simpler and less overwhelming for others.” Build the homepage and About page so they ladder up to that closer.
+
+3. Patti’s stories — the heart of the copy rewrite
+
+These three stories came directly from Patti and are stories she loves telling. They are the centerpiece of the About page and should be threaded through the rest of the site where they fit. Each one does specific work — humanizing her, illustrating a value, or demonstrating her competence without her bragging.
+Story 1 — The IRS audit (“Ignorance is not bliss”)
+Early in Patti’s career, she and her husband had a 1099 from a business that didn’t make any money, so she didn’t file it with the IRS. The IRS audited her anyway. The agent told her she likely owed $1,900 and said the now-famous line: “Ignorance is not bliss.” But because Patti’s records were meticulous, when the dust settled she actually walked out with an additional refund — not a bill.
+Why it earns its keep: this is the single best story in the set. It’s self-deprecating (she’s the one who got audited), it teaches the lesson she sells (good records protect you), it has a memorable hook (“Ignorance is not bliss”), and it ends with the kicker that her competence turned a bill into a refund. She doesn’t have to claim she’s good — the story does it for her.
+Where to use it: About page, prominently. Could also be teased on the homepage as a credibility moment. This is the one we lead with.
+Story 2 — High school algebra (“The only thing that matters is the BOTTOM LINE”)
+Patti consistently got the right answers on her algebra tests but didn’t show her work, so she was failing. She asked her teacher why she was failing when her answers were right. He said it was because she didn’t show her work. Her response (and the line she loves): “The only thing that matters is the bottom line.”
+Why it earns its keep: it positions Patti as pragmatic and results-oriented — she’s not going to perform process theater. For her clients, the bottom line is what matters; she does the meticulous showing-the-work behind the scenes so they don’t have to. There’s a productive tension with Story 1 (the audit) that resolves nicely: she shows her work for the IRS, not for the client. The client just sees clarity.
+Where to use it: About page (paired with Story 1), or as a homepage callout/pull-quote near “How working with me actually goes.”
+Story 3 — The mortician aptitude test
+In college, Patti took an aptitude test that told her she’d be great as either a mortician or an accountant. Dead bodies give her the heebie-jeebies, so she went the accountant route.
+Why it earns its keep: pure humanization. Light, self-aware, funny, and easy to read in her voice. It lowers the temperature and makes her feel approachable before the heavier stories land.
+Where to use it: open the About page with this. It sets the tone before Stories 1 and 2 do the heavier lifting.
+4. Ideal client (Patti’s growth target)
+
+Patti has two concrete growth targets she’d like the new site to attract. Every design and copy decision should serve at least one of them:
+Medium-sized businesses — auto shops, ~10-employee operations. Target: 3–5 of these.
+Small operators — cleaners, handymen, similar service shops. Target: 8–12.
+Common thread: owner-operators who have been burned by a sloppy bookkeeper or ghosted by an online service. They specifically want a real human they can call. The site should make them feel like they’ve already met Patti by the time they fill out the contact form.
+From Patti’s BNI talk, a more granular picture of who she’s a fit for:
+Service-based business.
+A few years in — not brand new.
+Has activity — real revenue, real transactions; not a side project.
+Feels unsure about their numbers.
+Or just doesn’t want to be the one handling the accounting on top of everything else.
+Referral partners (new to the build)
+In her BNI talk, Patti named her preferred referral sources: CPAs, financial advisors, lenders, and insurance agents. We hadn’t discussed this in earlier meetings, but it’s worth a small beat on the site — even a sentence or two on the homepage or Contact page — signaling that these introductions are welcome. Confirm with Patti whether she wants this surfaced explicitly before building it in (see Open Questions).
+5. “What I do / What I don’t do” — required content block
+
+Patti was emphatic about this in our meeting. The site must explicitly draw the line on her scope — both to attract the right clients and to repel the wrong ones. Display this as a side-by-side block somewhere prominent (homepage and/or Services page).
+Phrasing for the live block can be Patti’s voice (“Here’s what I do, and here’s what I won’t pretend to do…”) — the table above is the substance, not the literal copy.
+6. Strategic positioning — the one big idea
+
+Sell Patti, not a category. The current site competes on the same dimension as every churn-and-burn online bookkeeping service: “we’re competent and corporate.” That’s a fight she can’t win, and it gives away the only thing the competition can’t copy — her.
+Concretely, this means:
+Patti’s real photo on the homepage hero. Not stock. Warm, unfussy — at her desk, with coffee, looking like someone you’d call.
+Her first name on the homepage within the first viewport.
+First person (“I”, “my”) throughout. Never “we.”
+Copy that sounds like she said it out loud — contractions, plain language, no jargon, no hype.
+Trust signals: testimonials with real first names + towns, credentials (QuickBooks ProAdvisor and anything else — confirm with Patti).
+7. Voice & tone guidelines
+
+First person. “I keep your books accurate.” Never “we” or “Our team.”
+Contractions allowed and encouraged — “I’ll,” “don’t,” “you’ve.”
+Zero hype. No exclamation points (or one, maybe, in a 4-page site). No “unlock your potential,” “game-changer,” “seamless,” “solution.”
+Warmth + competence. The reader should exhale when they land on the page. “Someone’s in charge here and she’s not going to make me feel dumb.”
+Sentences that sound spoken. Read every line out loud during copy review; if it doesn’t sound like Patti could say it, rewrite it.
+Calm CTAs. “Schedule a 20-minute conversation” — not “Get started today!”
+8. Content building blocks (from Patti’s BNI talk)
+
+Patti gave a presentation to her BNI group that effectively is the website in spoken form. Several pieces of it are sharper than anything we’ve drafted and should be lifted directly. Treat the items below as ready-to-place content blocks for the copy phase — pre-tested phrasing in Patti’s own voice.
+8a. The core arc — “I’ve done life the hard way”
+Patti opens her BNI talk with this line and closes it with: “Because I’ve done things the hard way, I’ve learned how to make things simpler and less overwhelming for others.” That arc — earned-the-hard-way → simpler-for-you — is her positioning statement in two sentences. The homepage hero and the About page should ladder up to the closer. The three stories in Section 3 (IRS audit, algebra, mortician) are the substance behind the opening line.
+8b. Before vs After — homepage block
+Patti’s clearest articulation of what she sells is a literal before/after. This deserves its own visual block on the homepage — two columns, side by side. Don’t paraphrase; the words are already exactly right.
+In her own narration: “My job is to move them from the confusion on the left… to the clarity on the right.” That sentence works as a caption under the block.
+8c. “Does this sound like you?” — signal language
+Patti named the things her prospects say when they need her. These are verbatim and should be used as a homepage block (probably before the contact CTA), titled something like “Does this sound like you?” or “If you’ve ever said any of these out loud…” It makes the prospect feel seen before they read anything else about Patti.
+“I think we’re profitable, but…”
+“I’ll catch up before tax time, I hope.”
+“QuickBooks says one thing — I’m not sure if it’s true.”
+“I don’t want to deal with it.”
+8d. The four-step process — Services page
+When Patti walks into a typical engagement, this is what she actually does. Use these as the spine of the Services page intro — numbered cards or a simple ordered list. The numbering is part of the reassurance.
+1. Clean it up.
+2. Align everything with the bank.
+3. Build a simple system.
+4. Keep it consistent.
+8e. What she usually walks into
+Earlier in the same talk, Patti described the typical state of a new client’s books — useful as a prospect-recognition beat, possibly paired with the signal-language block in 8c:
+Numbers don’t match.
+Accounts aren’t reconciled.
+Reports can’t be trusted.
+Her line for this: “That’s what I call the hard way.” It’s also the bridge into the “hard way / simpler” arc in 8a.
+8f. The referral case study (optional, confirm with Patti)
+From the BNI deck, Patti described a typical engagement in her own words: “I had a referral come to me thinking their books just needed a little attention. But once I got in, the numbers weren’t lining up the way they should. We worked through it, cleaned everything up, and put a system in place to keep it consistent. Now they’re not avoiding their numbers anymore — they’re actually using them.”
+If Patti is comfortable using this on the site (it’s her story, no named client), it would anchor a short “What working with me actually looks like” section. Confirm with Patti before placing it — see Open Questions.
+9. Design direction
+
+The visual feel we’re after is a well-kept professional office — warm wood, good light, neat papers — not a SaaS dashboard.
+Color
+Anchor: deep navy or forest green.
+Background: warm cream / soft off-white. Avoid pure white.
+One accent, used sparingly: muted gold, terracotta, or sage.
+The current palette (cool blues, pure white) is too cold and template-y — deliberately move warmer.
+Typography
+Headlines: a serif — traditional but not stuffy. Options: Source Serif, Lora, Tiempos.
+Body: clean sans-serif. Inter, Source Sans, or similar.
+The current all-sans setup reads as a SaaS startup. Serifs read as established and trustworthy — which is on-brand for Patti.
+Imagery
+Real photos of Patti. Replace every stock image — especially the duplicated “woman at laptop” shots.
+If no pro shoot in budget, good iPhone photos in natural light outperform stock.
+Supporting imagery: a clean ledger, a coffee cup, her actual workspace. Concrete, not metaphorical.
+Drop the template SVG icons (clipboard, dollar sign, headset).
+Layout
+Generous whitespace. One idea per section.
+Homepage should be scrollable once, scannable, and understood in a single viewport pass: who she is, who she helps, what she does, what to do next.
+Mobile: fix the current duplicate hero/section bug. Verify on actual mobile.
+10. Page-by-page build plan
+
+Homepage
+Hero: real photo of Patti + first-person headline that ladders up to her “hard way / simpler for you” arc (see Section 8a) + a single primary CTA: “Schedule a 20-minute conversation”. Draft headline direction: “Hi, I’m Patti. I’ve done life the hard way — which is exactly why your books don’t have to be.”
+“Who I work with” — three sentences naming the kinds of businesses she serves (see Section 4 audience).
+Prospect signal-language block — “Does this sound like you?” pulling the four verbatim quotes from Section 8c. This block does empathy-first work before any pitch.
+Before / After block — the two-column Confusion-Avoidance-Guessing → Clarity-Confidence-Decisions visual from Section 8b. Caption: “My job is to move you from the left to the right.”
+“How working with me actually goes” — plain-language walk-through of the first month, the monthly rhythm, what they can expect to hear from her and when. This is where the steady cadence becomes a feature.
+“What’s included” — her three-tier engagement structure (Foundation / Ongoing Clarity / Established) preserved as-is but visually lighter. This part of the current site already works — don’t replace it, just style it down.
+Testimonials — 2–3 with real first names + towns. (Patti to provide — see Open Questions.)
+“About Patti” block — short, with background, years of experience, credentials (QuickBooks ProAdvisor confirmed; any others TBD).
+“What I do / What I don’t do” clarity block — see Section 5.
+Optional: a one-sentence “For referral partners — CPAs, financial advisors, lenders, insurance agents” beat, if confirmed with Patti (see Section 4 and Open Questions).
+Closing CTA — calm: “If you’re not sure whether we’re a fit, that’s exactly what the first conversation is for.”
+About page
+Rewritten in first person.
+Opens with Story 3 (mortician aptitude test) — sets the tone.
+Body: how she got into bookkeeping, what she’s learned about why owners get stuck.
+Centerpiece: Story 1 (IRS audit) — do not paraphrase the “Ignorance is not bliss” line; keep it verbatim.
+Pair Story 2 (bottom line) here or use as a pull-quote between sections.
+Close on the “hard way / simpler for you” arc (Section 8a): “Because I’ve done things the hard way, I’ve learned how to make things simpler and less overwhelming for others.” End with a soft CTA to the contact/booking page.
+Services page
+Open with Patti’s four-step process from Section 8d (Clean it up / Align with the bank / Build a simple system / Keep it consistent), paired with her line: “This isn’t about making things complicated — it’s about making them simple enough that they stay manageable.” This is the spine of the page.
+Optional “What I usually walk into” callout — the three-bullet block from Section 8e (numbers don’t match / accounts aren’t reconciled / reports can’t be trusted). Sets up the four-step process as the resolution.
+Keep the four service areas from the current site.
+For each: add a one-sentence “what this looks like in your inbox” — the human translation of what the service actually feels like to receive. Owners buy the experience, not the deliverable.
+Reinforce “What I do / What I don’t do” somewhere on this page.
+Contact page
+Short form, four fields (see Section 11).
+Direct email and phone number prominently displayed and clickable (tel: and mailto:).
+One line, in her voice: “I read every message myself, and I’ll get back to you within one business day.”
+Link to the booking option (Calendly embed — Section 11).
+11. Functional requirements
+
+Contact form (REQUIRED — Patti specified the fields)
+First Name (required)
+Last Name (required)
+Business Name (required)
+Message (required, multi-line)
+Submissions email to Patti at her verified address — confirm with her which to use.
+Basic spam protection (honeypot, hCaptcha, or similar).
+Friendly confirmation state: “Got it. I’ll be in touch within one business day. — Patti.”
+Booking integration — Calendly
+Patti selected Option 2, so the booking is a Calendly integration:
+Embedded Calendly widget on the page (Contact page at minimum; consider an inline section on the homepage).
+Primary CTA button on the homepage reading “Schedule a 20-minute conversation” that opens the Calendly flow.
+Patti owns the Calendly account; confirm whether she has one already or whether we’re setting one up for her (see Open Questions).
+Calendly’s free tier covers the basics; she may opt into a paid plan (~$12/mo) for reminders and other features — billed by Calendly directly to her, not through us.
+CMS / editability
+Patti must be able to edit text and swap photos herself after launch — confirmed requirement.
+We’ll record a short walk-through video for her at handoff.
+Pick a stack she can actually log into. No raw HTML editing.
+Build for clean handoff — she’s self-hosting on Hostinger, so the final stack needs to be something her Hostinger plan supports and that she (or we, helping her) can deploy without our infrastructure.
+12. Credibility fixes (bugs on the current live site)
+
+These are quick wins from the audit of the existing site. All of them undercut the careful tone Patti is going for. They should be fixed regardless of which tier she chooses:
+Footer email link points to info@legerwise.com — a leftover from a template. Replace with the correct Accountable Allies address (confirm with Patti).
+Phone numbers don’t match between pages: homepage ends 983-2596, About page ends 521-9234. Confirm the correct number with Patti and use it consistently site-wide.
+Mobile layout repeats hero images and section labels in a way that looks broken. Verify on actual devices, not just emulator.
+Same stock photo of a woman at a laptop appears multiple times on the homepage — replace all instances.
+Decorative template SVG icons (clipboard, dollar sign, headset) feel default — replace or remove.
+Homepage has roughly 7 distinct sections plus a duplicate “why choose us” block. Consolidate per Section 10 plan.
+No primary CTA on the page currently — “Contact Us” in the nav is the only path. Add prominent “Schedule a 20-minute conversation” button.
+13. Build scope — Option 2 ($750), selected
+
+Patti has selected Option 2. This is the full scope of work for the build:
+Full redesign of all four current pages (Home, About, Services, Contact) — warmer palette, serif headlines, real photo of Patti on the homepage.
+Full copy rewrite across all four pages in Patti’s voice — first person, contractions, no hype. Threads in her three stories (see Section 3).
+Contact form with First Name, Last Name, Business Name, Message fields.
+Calendly integration — embedded widget + “Schedule a 20-minute conversation” CTA button (see Section 11).
+“What I do / What I don’t do” clarity block (see Section 5).
+Testimonials section + “About Patti” block with credentials (e.g., QuickBooks ProAdvisor).
+Photo direction guidance + headshot integration. Replace all stock images.
+All credibility fixes from Section 12 (leftover legerwise.com email, mismatched phone numbers, mobile bug, etc.).
+Launch + 30 days of post-launch tweaks + a short walk-through video so Patti can update text and photos herself.
+Explicitly NOT in scope for this engagement:
+Hosting / care plan with West Wave Creative — Patti is self-hosting on Hostinger.
+Custom-coded booking widget (that was Option 3, not selected).
+Professional photography fees, ongoing SEO/content writing, paid ad setup.
+14. Timeline
+
+Week 1 — Discovery call (~60 min) to capture Patti’s voice, ideal-client picture, and any photos/assets she has.
+Weeks 2–3 — Copy drafts and design concepts. Two review rounds.
+Week 4 — Build.
+Week 5 — Final review, photo swap, polish, and Calendly setup.
+Week 6 — Handoff. Either turn over all project files for Patti to deploy on Hostinger herself, or assist her with getting the site live on her Hostinger account. Walk-through video either way.
+15. Assets & references
+
+Current live site: https://accountablealliesllc.com/
+Original redesign proposal (April 2026) — see attached. Has the full strategic rationale.
+Quote document (May 2026) — see attached. Has tier breakdown.
+Patti’s BNI talk presentation (May 2026) — see attached. Source for the Before/After framework (Section 8b), the four-step process (Section 8d), the prospect signal language (Section 8c), and the “hard way / simpler for you” arc (Section 8a).
+Meeting notes from in-person and follow-up sessions with Patti are summarized throughout this brief.
+16. Open questions — need answers before kickoff
+
+Correct phone number to use site-wide (resolve the 983-2596 vs 521-9234 discrepancy).
+Correct email address for form submissions.
+Calendly account — does Patti already have one, or do we provision a new one for her?
+Credentials beyond QuickBooks ProAdvisor — anything else she wants displayed?
+Photo plan: professional shoot, or guided iPhone session?
+Testimonials — does she have client quotes she can share, or do we need to ask current clients?
+Referral-partner beat — is she comfortable with an explicit “For CPAs, financial advisors, lenders, insurance agents” call-out on the site (from her BNI talk)?
+Referral case study (Section 8f) — okay to use the “a referral came to me thinking their books just needed a little attention…” paragraph on the site, since no client is named?
+Handoff preference: at launch, does Patti want us to (a) deliver all project files for her to deploy on Hostinger herself, or (b) walk her through getting the site live on her Hostinger account? We can flex either way.
+Hostinger plan details — what plan is she on, and what stacks does it support (PHP/MySQL, static, Node, etc.)? This may shape the build stack.
+Questions on any of this — ping me. Looking forward to seeing it come together.
+— Dave / West Wave Creative
+=== TABLE 0 ===
+Client | Patti at Accountable Allies, LLC — strategic bookkeeping/accounting practice.
+URL | https://accountablealliesllc.com/ (redesigning the existing site)
+Pages | Home, About, Services, Contact (four pages — Option 2 scope).
+Core goal | Reposition from a generic “competent corporate” bookkeeping site to a warm, first-person, Patti-on-the-page site. Keep the competence; add the human.
+Timeline | 4–6 weeks from kickoff.
+Hosting | Patti is self-hosting on Hostinger (her own account). West Wave Creative is not providing a hosting/care plan on this project. At handoff we either turn over all project files for her to deploy, or help her get the site live on her Hostinger account — Patti’s choice at launch.
+Tier (selected) | Option 2 — $750. Full website build + full copy rewrite + Calendly integration. Hosting NOT included. See Section 13 for the full scope.
+=== TABLE 1 ===
+“You don’t have to understand any of this. That’s what I’m here for. Let me show you what your numbers are telling you.”
+— the tone we’re aiming for
+=== TABLE 2 ===
+What I am | What I’m not
+A strategic bookkeeper / accountant
+Meticulous and straightforward
+The person who actually does the work — not a layer between you and someone else | Not a tax strategist
+Not a CFO
+Not a business consultant
+=== TABLE 3 ===
+Before working with Patti | After working with Patti
+Confusion
+Avoidance
+Guessing | Clarity
+Confidence
+Decisions
+=== TABLE 4 ===
+“This isn’t about making things complicated — it’s about making them simple enough that they stay manageable.”
+— Patti, BNI talk
