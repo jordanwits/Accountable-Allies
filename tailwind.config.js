@@ -6,10 +6,10 @@ export default {
       colors: {
         // Warm cream / paper
         cream: {
-          50: '#FBF6E9',
-          100: '#F5EDD7',
-          200: '#EFE3C2',
-          300: '#E6D5A8',
+          50: '#FAF8F4',
+          100: '#F2EDE5',
+          200: '#E8E1D5',
+          300: '#DDD5C7',
         },
         // Soft pastel navy
         forest: {
@@ -18,6 +18,13 @@ export default {
           700: '#243C64',
           600: '#2E4C7A',
           500: '#3A5E92',
+        },
+        // Bright accent blue (pops on cream + on navy)
+        azure: {
+          300: '#93B5DD',
+          400: '#5C87C6',
+          500: '#3A6BA8',
+          600: '#2C5286',
         },
         // Ink / warm dark
         ink: {

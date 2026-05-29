@@ -1,12 +1,13 @@
 const tiers = [
   {
     name: 'Foundation',
-    sub: 'For owner-operators getting their footing.',
+    sub: 'For small business owners getting their footing.',
     desc: 'A clean set of books, reconciled to the bank, with a simple monthly rhythm. The work that should\'ve been done all along.',
     bullets: [
       'Monthly reconciliation',
       'Clean categorization',
       'Plain-English summary',
+      'Regular check-in',
       'Tax-time-ready, always',
     ],
     feature: false,
@@ -42,13 +43,13 @@ export default function Tiers() {
     <section className="relative py-28 md:py-36 px-6 md:px-10 bg-cream-50 border-y border-ink-700/10">
       <div className="max-w-[1300px] mx-auto">
         <div className="text-center mb-20 reveal">
-          <p className="eyebrow">What's included</p>
+          <p className="eyebrow">Services</p>
           <h2 className="font-display text-5xl md:text-7xl mt-5 leading-[1] text-ink-900 tracking-tightest">
             Three ways{' '}
             <span className="italic-fraunces text-forest-800">we can work together.</span>
           </h2>
           <p className="mt-6 text-ink-700 max-w-xl mx-auto">
-            Pick the one that fits where you are now. You can always move up later. Most people do.
+            Pick the one that fits where you are now. You can always move up later. Either way, a regular check-in &mdash; monthly, and weekly in some cases &mdash; is part of how I work with everyone.
           </p>
         </div>
 
@@ -80,7 +81,7 @@ export default function Tiers() {
               <ul className={`mt-8 space-y-3 ${t.feature ? 'text-cream-100/90' : 'text-ink-800'}`}>
                 {t.bullets.map((b) => (
                   <li key={b} className="flex items-start gap-3 text-sm">
-                    <span className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 ${t.feature ? 'bg-ochre-400' : 'bg-forest-700'}`} />
+                    <span className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 ${t.feature ? 'bg-azure-300' : 'bg-forest-700'}`} />
                     {b}
                   </li>
                 ))}

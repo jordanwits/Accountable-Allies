@@ -28,12 +28,12 @@ export default function AboutBlock() {
             <span className="italic-fraunces text-forest-800">I walked out with a refund.</span>
           </h2>
           <p className="mt-6 text-ink-700 text-lg leading-relaxed">
-            Early in my career, I didn't file a 1099 from a business that never made any money. The IRS audited me anyway. The agent told me I likely owed $1,900 and said the now-famous line:{' '}
-            <em className="italic-fraunces text-forest-800">"Ignorance is not bliss."</em>
+            In my early twenties, my husband got a 1099 for side work that all went right back out to expenses, so I figured there was nothing to file. The IRS didn't see it that way. The agent told me I likely owed $1,900 and said the line I've never forgotten:{' '}
+            <em className="italic-fraunces text-forest-800">"Ignorance is not an excuse."</em>
           </p>
           <p className="mt-5 text-ink-700 text-lg leading-relaxed">
-            But my records were meticulous. When the dust settled, I walked out with an{' '}
-            <span className="italic-fraunces text-forest-800">additional refund</span>, not a bill.
+            But I had every record &mdash; even if it was all in a shoe box. When the dust settled, I walked out with the IRS{' '}
+            <span className="italic-fraunces text-forest-800">owing us a refund</span>, not a bill.
           </p>
           <p className="mt-5 text-ink-700 text-lg leading-relaxed">
             That's the whole pitch, really. I keep your records the way I keep my own, so the surprises in your business come from your customers, not from your books.

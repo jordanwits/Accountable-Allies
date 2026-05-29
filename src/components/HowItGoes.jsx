@@ -2,22 +2,22 @@ const steps = [
   {
     n: '01',
     title: 'The first conversation',
-    body: 'Twenty minutes on the phone. You tell me what\'s going on. I ask questions. We decide together if I\'m the right fit. If I\'m not, I\'ll say so.',
+    body: 'At least thirty minutes on the phone. You tell me what\'s going on. I ask questions. We decide together if I\'m the right fit. If I\'m not, I\'ll say so.',
   },
   {
     n: '02',
-    title: 'Month one: the cleanup',
-    body: 'I get into your books, line everything up to the bank, and find what\'s been missed. You\'ll get a short, honest write-up of what I found and what we\'re fixing.',
+    title: 'The cleanup',
+    body: 'I get into your books, line everything up to the bank, and find what\'s been missed. You\'ll get an honest write-up of what I found and what we\'re fixing. Depending on how far behind things are, this can take more than a month, and I won\'t over-promise on that.',
   },
   {
     n: '03',
     title: 'A steady rhythm',
-    body: 'After the cleanup, the books get a regular cadence. You\'ll hear from me on a predictable schedule. Never a surprise, never a scramble at tax time.',
+    body: 'After the cleanup, I keep your books on a regular cadence. This is hands-on, ongoing bookkeeping, not a review of someone else\'s work. You\'ll hear from me on a predictable schedule. Never a surprise, never a scramble at tax time.',
   },
   {
     n: '04',
     title: 'A monthly check-in',
-    body: 'A short report once a month in plain English. What you made, what you spent, what\'s worth paying attention to. No jargon. No homework for you.',
+    body: 'A financial report every month in plain English. What you made, what you spent, what\'s worth paying attention to. Need management reporting too? I can do that. The reports aren\'t always short, but they\'re always clear.',
   },
 ]
 
@@ -40,7 +40,7 @@ export default function HowItGoes() {
               className="reveal relative flex gap-5 sm:gap-6 md:gap-8 items-start"
               style={{ transitionDelay: `${i * 80}ms` }}
             >
-              <span className="shrink-0 font-display text-7xl md:text-8xl text-ochre-500/35 tracking-tightest tabnum leading-none -mt-3">
+              <span className="shrink-0 font-display text-7xl md:text-8xl text-azure-500/40 tracking-tightest tabnum leading-none -mt-3">
                 {s.n}
               </span>
               <div className="min-w-0 pt-1">

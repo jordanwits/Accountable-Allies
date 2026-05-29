@@ -22,7 +22,7 @@ export default function DoDont() {
           <p className="eyebrow">Here's the line</p>
           <h2 className="font-display text-5xl md:text-7xl mt-5 leading-[1] text-ink-900 tracking-tightest max-w-4xl">
             What I do.{' '}
-            <span className="italic-fraunces text-terra-500">And what I won't pretend to do.</span>
+            <span className="italic-fraunces text-forest-900">And what I won't pretend to do.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-ink-700 text-lg">
             I'm strict about my scope, for your sake and mine. Knowing exactly what you're getting (and what you're not) is half the value.
@@ -32,17 +32,16 @@ export default function DoDont() {
         <div className="grid md:grid-cols-2 gap-6 md:gap-10">
           {/* DO */}
           <div className="reveal relative bg-forest-800 text-cream-50 p-10 md:p-14 overflow-hidden">
-            <div className="absolute top-6 right-6 font-display italic-fraunces text-ochre-400/80">
+            <div className="absolute top-6 right-6 font-display italic-fraunces text-azure-300/80">
               I do this.
             </div>
-            <p className="eyebrow !text-ochre-400">Yes</p>
             <h3 className="font-display text-3xl md:text-4xl mt-4 leading-tight tracking-tightest">
               The work I show up for, every time.
             </h3>
             <ul className="mt-8 space-y-1">
               {doList.map((d, i) => (
                 <li key={d} className="group flex items-start gap-4 py-4 border-t border-cream-100/15 first:border-t-0">
-                  <span className="font-mono text-xs text-ochre-400 tabnum mt-1.5">{String(i + 1).padStart(2, '0')}</span>
+                  <span className="font-mono text-xs text-azure-300 tabnum mt-1.5">{String(i + 1).padStart(2, '0')}</span>
                   <span className="text-cream-50 text-lg leading-snug">{d}</span>
                 </li>
               ))}
@@ -54,7 +53,6 @@ export default function DoDont() {
             <div className="absolute top-6 right-6 font-display italic-fraunces text-terra-500/80">
               Not my lane.
             </div>
-            <p className="eyebrow text-terra-500">No</p>
             <h3 className="font-display text-3xl md:text-4xl mt-4 leading-tight tracking-tightest text-ink-900">
               And the things I'll honestly send you elsewhere for.
             </h3>

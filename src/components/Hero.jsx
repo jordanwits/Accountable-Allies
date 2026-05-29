@@ -52,7 +52,7 @@ export default function Hero() {
             <h1
               className="font-display text-cream-50 mt-3 md:mt-4 leading-[0.98] tracking-tightest animate-fade-up"
               style={{
-                fontSize: 'clamp(2.4rem, 6.5vw, 6.2rem)',
+                fontSize: 'clamp(2.2rem, 5.5vw, 5.2rem)',
                 animationDelay: '250ms',
               }}
             >
@@ -99,7 +99,7 @@ export default function Hero() {
         {/* CTAs */}
         <div className="flex flex-wrap gap-4 items-center mt-16 animate-fade-up" style={{ animationDelay: '550ms' }}>
           <Link to="/contact" className="btn-primary">
-            Schedule a 20-minute conversation
+            Schedule a conversation
             <span className="arrow">→</span>
           </Link>
           <Link

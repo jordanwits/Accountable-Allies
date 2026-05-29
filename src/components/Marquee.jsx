@@ -11,7 +11,7 @@ export default function Marquee() {
   const list = [...items, ...items]
 
   return (
-    <section className="relative bg-cream-200/60 border-y border-ink-700/10 py-6 overflow-hidden">
+    <section className="relative bg-cream-100/80 border-y border-ink-700/10 py-6 overflow-hidden">
       <div className="marquee-track">
         {list.map((s, i) => (
           <div key={i} className="flex items-center gap-10 shrink-0">

@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --cream-50: #FBF6E9;
-  --cream-100: #F5EDD7;
-  --cream-200: #EFE3C2;
-  --cream-300: #E6D5A8;
+  --cream-50: #FAF8F4;
+  --cream-100: #F2EDE5;
+  --cream-200: #E8E1D5;
+  --cream-300: #DDD5C7;
   --forest-900: #152238;
   --forest-800: #1C3050;
   --forest-700: #243C64;
@@ -18,6 +18,8 @@
   --ochre-500: #C19134;
   --ochre-400: #D4A656;
   --terra-500: #B86F4A;
+  --azure-500: #3A6BA8;
+  --azure-300: #93B5DD;
 }
 
 @layer base {
@@ -68,7 +70,7 @@
 .paper {
   background-color: var(--cream-100);
   background-image:
-    radial-gradient(circle at 20% 10%, rgba(193, 145, 52, 0.05) 0px, transparent 40%),
+    radial-gradient(circle at 20% 10%, rgba(193, 145, 52, 0.025) 0px, transparent 40%),
     radial-gradient(circle at 80% 80%, rgba(28, 48, 80, 0.04) 0px, transparent 50%);
 }
 
@@ -127,7 +129,7 @@
 }
 .btn-ghost:hover {
   color: var(--forest-800);
-  border-color: var(--ochre-500);
+  border-color: var(--azure-500);
 }
 
 .rule {
@@ -200,7 +202,7 @@
 
 /* ===== FANCY FOCUS ===== */
 :focus-visible {
-  outline: 2px solid var(--ochre-500);
+  outline: 2px solid var(--azure-500);
   outline-offset: 3px;
   border-radius: 2px;
 }

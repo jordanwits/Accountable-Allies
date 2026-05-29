@@ -16,6 +16,9 @@ export default function SignalLanguage() {
             <span className="italic-fraunces text-forest-800">out loud,</span>{' '}
             we should talk.
           </h2>
+          <p className="mt-5 text-ink-700 text-lg max-w-2xl">
+            Said or thought &mdash; it doesn't need to be said out loud.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-12 gap-10 md:gap-16 items-start">
@@ -29,11 +32,11 @@ export default function SignalLanguage() {
                   }`}
                   style={{ transitionDelay: `${i * 60}ms` }}
                 >
-                  <span className="font-mono text-xs tabnum text-ochre-600 self-start mt-2 tracking-[0.18em]">
+                  <span className="font-mono text-xs tabnum text-azure-600 self-start mt-2 tracking-[0.18em]">
                     {String(i + 1).padStart(2, '0')}
                   </span>
                   <p className="font-display text-2xl md:text-4xl text-ink-900 leading-[1.18] tracking-tightest">
-                    <span aria-hidden="true" className="italic-fraunces text-ochre-500/80 mr-1">
+                    <span aria-hidden="true" className="italic-fraunces text-azure-500/80 mr-1">
                       &ldquo;
                     </span>
                     {p}
