@@ -65,7 +65,7 @@ export default function Contact() {
               <span className="italic-fraunces text-forest-800">No essay required.</span>
             </h2>
             <p className="margin-note mt-4">
-              From here we'll set up a call of at least thirty minutes &mdash; enough for me to understand the level of work and what my fee will be. No business is the same, so I don't cookie-cutter my work or my pricing.
+              From here we'll set up a call, enough for me to understand the level of work and what my fee will be. No business is the same, so I don't cookie-cutter my work or my pricing.
             </p>
 
             {submitted ? (

@@ -106,7 +106,7 @@ export default function Hero() {
             to="/about"
             className="text-cream-50 border-b border-cream-50/40 hover:border-ochre-400 pb-1 transition-colors text-sm"
           >
-            Or read why she got audited (and ended up with a refund)
+            Or read why I got audited (and ended up with a refund)
           </Link>
         </div>
       </div>

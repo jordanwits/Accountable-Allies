@@ -32,7 +32,7 @@ export default function AboutBlock() {
             <em className="italic-fraunces text-forest-800">"Ignorance is not an excuse."</em>
           </p>
           <p className="mt-5 text-ink-700 text-lg leading-relaxed">
-            But I had every record &mdash; even if it was all in a shoe box. When the dust settled, I walked out with the IRS{' '}
+            But I had every record, even if it was all in a shoe box. When the dust settled, I walked out with the IRS{' '}
             <span className="italic-fraunces text-forest-800">owing us a refund</span>, not a bill.
           </p>
           <p className="mt-5 text-ink-700 text-lg leading-relaxed">

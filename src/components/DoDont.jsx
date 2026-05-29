@@ -19,7 +19,7 @@ export default function DoDont() {
     <section className="relative py-28 md:py-36 px-6 md:px-10">
       <div className="max-w-[1300px] mx-auto">
         <div className="mb-16 reveal">
-          <p className="eyebrow">Here's the line</p>
+          <p className="eyebrow">Scope of work</p>
           <h2 className="font-display text-5xl md:text-7xl mt-5 leading-[1] text-ink-900 tracking-tightest max-w-4xl">
             What I do.{' '}
             <span className="italic-fraunces text-forest-900">And what I won't pretend to do.</span>
@@ -54,7 +54,7 @@ export default function DoDont() {
               Not my lane.
             </div>
             <h3 className="font-display text-3xl md:text-4xl mt-4 leading-tight tracking-tightest text-ink-900">
-              And the things I'll honestly send you elsewhere for.
+              And the things I'll send you to the right person for.
             </h3>
             <ul className="mt-8 space-y-1">
               {dontList.map((d, i) => (

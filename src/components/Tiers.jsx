@@ -49,7 +49,7 @@ export default function Tiers() {
             <span className="italic-fraunces text-forest-800">we can work together.</span>
           </h2>
           <p className="mt-6 text-ink-700 max-w-xl mx-auto">
-            Pick the one that fits where you are now. You can always move up later. Either way, a regular check-in &mdash; monthly, and weekly in some cases &mdash; is part of how I work with everyone.
+            Custom-quoted. No surprise pricing. We'll talk before anything's set.
           </p>
         </div>
 
@@ -87,11 +87,6 @@ export default function Tiers() {
                 ))}
               </ul>
 
-              <div className={`mt-10 pt-6 border-t ${t.feature ? 'border-cream-100/15' : 'border-ink-700/15'}`}>
-                <p className={`text-sm ${t.feature ? 'text-cream-100/70' : 'text-ink-500'}`}>
-                  Custom-quoted. No surprise pricing. We'll talk before anything's set.
-                </p>
-              </div>
             </article>
           ))}
         </div>

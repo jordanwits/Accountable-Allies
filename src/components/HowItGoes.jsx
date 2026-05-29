@@ -7,7 +7,7 @@ const steps = [
   {
     n: '02',
     title: 'The cleanup',
-    body: 'I get into your books, line everything up to the bank, and find what\'s been missed. You\'ll get an honest write-up of what I found and what we\'re fixing. Depending on how far behind things are, this can take more than a month, and I won\'t over-promise on that.',
+    body: 'I get into your books, reconcile everything against the bank, and find what\'s been missed. You\'ll hear exactly what I found and what I\'m fixing. No surprises. No jargon.',
   },
   {
     n: '03',

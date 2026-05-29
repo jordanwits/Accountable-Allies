@@ -26,11 +26,11 @@ export default function BeforeAfter() {
 
       <div className="relative z-10 max-w-[1300px] mx-auto">
         <div className="text-center mb-16 reveal">
-          <p className="eyebrow !text-cream-100/80">The whole job, in one sentence</p>
+          <p className="eyebrow !text-cream-100/80">Before & after</p>
           <h2 className="font-display text-5xl md:text-7xl mt-5 leading-[1] text-cream-50 tracking-tightest max-w-4xl mx-auto">
-            My job is to move you from the{' '}
-            <span className="italic-fraunces text-ochre-400">left</span> to the{' '}
-            <span className="italic-fraunces text-ochre-400">right.</span>
+            My job is to turn financial{' '}
+            <span className="italic-fraunces text-ochre-400">confusion</span> into{' '}
+            <span className="italic-fraunces text-ochre-400">clarity.</span>
           </h2>
         </div>
 

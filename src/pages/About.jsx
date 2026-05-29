@@ -96,7 +96,7 @@ export default function About() {
                 "Ignorance is not an excuse."
               </p>
               <p>
-                Here's the part I love: I had every record &mdash; albeit all of it in a shoe box. Check stubs for every payment received, matched to the 1099. Every receipt accounted for. Even the mileage to and from. If I'd known how to keep books back then, it would've been logged instead of loose in a box. When we worked through what was earned versus what was an expense, the number didn't go in the direction the agent expected.
+                Here's the part I love: I had every record, all of it in a shoe box. Check stubs for every payment received, matched to the 1099. Every receipt accounted for. Even the mileage to and from. If I'd known how to keep books back then, it would've been logged instead of loose in a box. When we worked through what was earned versus what was an expense, the number didn't go in the direction the agent expected.
               </p>
               <p className="text-ochre-400 italic-fraunces font-display text-2xl md:text-3xl leading-snug">
                 I walked out with the IRS owing us a refund.
@@ -116,7 +116,7 @@ export default function About() {
             <p className="font-mono text-xs text-forest-600 tracking-widest">STORY TWO</p>
             <p className="font-display text-7xl text-forest-800 mt-4 leading-none">II.</p>
             <h2 className="font-display italic-fraunces text-3xl md:text-4xl mt-6 text-forest-800 leading-tight tracking-tightest">
-              The high-school geometry story, which is also the whole philosophy.
+              Why I only care about the bottom line.
             </h2>
           </div>
           <div className="md:col-span-7 reveal">
@@ -125,14 +125,14 @@ export default function About() {
                 I consistently got the right answers on my geometry homework and tests. I also consistently got an "F." The bottom-line answer was always correct. I didn't understand.
               </p>
               <p className="mt-5 text-ink-700 text-lg leading-relaxed">
-                I asked my teacher, "What am I doing wrong? My answer is always right." He said I was failing because I didn't show my work &mdash; there's a process to get to the answer, and skipping it made the answer wrong. My response, which I still believe, was this:
+                I asked my teacher, "What am I doing wrong? My answer is always right." He said I was failing because I didn't show my work. There's a process to get to the answer, and skipping it made the answer wrong. My response, which I still believe, was this:
               </p>
               <blockquote className="font-display text-3xl md:text-5xl text-ink-900 mt-8 leading-[1.05] tracking-tightest">
                 "The only thing that matters is{' '}
                 <span className="scribble">the bottom line.</span>"
               </blockquote>
               <p className="mt-10 text-ink-700 text-base leading-relaxed">
-                Here's how that translates: I don't attach the laws or guidelines to every bookkeeping entry, even though every entry is based on them. I produce the reports your CPA, the IRS, and your bank need &mdash; and I don't make you sit through how I got there. I answer any question you have so you understand your books your way.
+                Here's how that translates: I don't attach the laws or guidelines to every bookkeeping entry, even though every entry is based on them. I produce the reports your CPA, the IRS, and your bank need. I don't make you sit through how I got there. I answer any question you have so you understand your books your way.
               </p>
               <p className="mt-3 text-ink-700 text-base leading-relaxed">
                 You see clarity. I do the meticulous part in the background, where it belongs.
@@ -160,7 +160,7 @@ export default function About() {
               It came back with several options, but the top two tied: mortician or accountant.
             </p>
             <p className="italic-fraunces text-forest-800 font-display text-2xl md:text-3xl">
-              Dead bodies give me the heebie-jeebies. That left exactly one option &mdash; and here we are.
+              Dead bodies give me the heebie-jeebies. That left exactly one option. Here we are.
             </p>
           </div>
         </div>

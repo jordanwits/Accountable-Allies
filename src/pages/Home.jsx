@@ -33,7 +33,7 @@ export default function Home() {
             <span className="italic-fraunces text-forest-800">that's exactly what the first conversation is for.</span>
           </h2>
           <p className="mt-8 text-ink-700 text-lg max-w-xl mx-auto">
-            At least thirty minutes. No pressure. I'll listen, ask a few questions, and tell you honestly whether I'm the right person to help.
+            No pressure. I'll listen, ask a few questions, and tell you whether I'm the right person to help.
           </p>
           <Link to="/contact" className="btn-primary mt-10">
             Schedule a conversation
