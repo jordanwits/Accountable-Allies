@@ -73,7 +73,7 @@ export default function Nav() {
                   <>
                     <span>{l.label}</span>
                     {isActive && (
-                      <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-azure-500" />
+                      <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-ochre-500" />
                     )}
                   </>
                 )}
@@ -87,7 +87,7 @@ export default function Nav() {
                 }`}
               >
                 <span>{l.label}</span>
-                <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-azure-500 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
+                <span className="absolute -bottom-1.5 left-0 right-0 h-px bg-ochre-500 origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100" />
               </Link>
             )
           )}

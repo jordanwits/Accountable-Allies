@@ -32,7 +32,7 @@ export default function DoDont() {
         <div className="grid md:grid-cols-2 gap-6 md:gap-10">
           {/* DO */}
           <div className="reveal relative bg-forest-800 text-cream-50 p-10 md:p-14 overflow-hidden">
-            <div className="absolute top-6 right-6 font-display italic-fraunces text-azure-300/80">
+            <div className="absolute top-6 right-6 font-display italic-fraunces text-cream-100/70">
               I do this.
             </div>
             <h3 className="font-display text-3xl md:text-4xl mt-4 leading-tight tracking-tightest">
@@ -41,7 +41,7 @@ export default function DoDont() {
             <ul className="mt-8 space-y-1">
               {doList.map((d, i) => (
                 <li key={d} className="group flex items-start gap-4 py-4 border-t border-cream-100/15 first:border-t-0">
-                  <span className="font-mono text-xs text-azure-300 tabnum mt-1.5">{String(i + 1).padStart(2, '0')}</span>
+                  <span className="font-mono text-xs text-cream-100/50 tabnum mt-1.5">{String(i + 1).padStart(2, '0')}</span>
                   <span className="text-cream-50 text-lg leading-snug">{d}</span>
                 </li>
               ))}

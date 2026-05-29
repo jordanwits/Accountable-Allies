@@ -10,7 +10,7 @@ export default function Footer() {
           <p className="eyebrow !text-cream-100/80">Accountable Allies, LLC</p>
           <h3 className="font-display text-3xl md:text-4xl mt-4 leading-[1.05] text-cream-50">
             I've done life the hard way, which is exactly{' '}
-            <span className="italic-fraunces text-azure-300">why your books don't have to be.</span>
+            <span className="italic-fraunces text-ochre-400">why your books don't have to be.</span>
           </h3>
         </div>
 
@@ -18,12 +18,12 @@ export default function Footer() {
           <p className="eyebrow !text-cream-100/80">Reach me directly</p>
           <ul className="mt-5 space-y-2 text-cream-100/90">
             <li>
-              <a href="tel:+15309832596" className="text-cream-100/90 hover:text-azure-300 transition-colors tabnum">
+              <a href="tel:+15309832596" className="text-cream-100/90 hover:text-cream-50 transition-colors tabnum">
                 (530) 983-2596
               </a>
             </li>
             <li>
-              <a href="mailto:Patti@accountableallies.com" className="text-cream-100/90 hover:text-azure-300 transition-colors">
+              <a href="mailto:Patti@accountableallies.com" className="text-cream-100/90 hover:text-cream-50 transition-colors">
                 Patti@accountableallies.com
               </a>
             </li>
@@ -34,11 +34,11 @@ export default function Footer() {
         <div className="md:col-span-2">
           <p className="eyebrow !text-cream-100/80">Pages</p>
           <ul className="mt-5 space-y-2">
-            <li><Link to="/" className="text-cream-100/90 hover:text-azure-300 transition-colors">Home</Link></li>
-            <li><Link to="/#how-it-works" className="text-cream-100/90 hover:text-azure-300 transition-colors">How it works</Link></li>
-            <li><Link to="/#pricing" className="text-cream-100/90 hover:text-azure-300 transition-colors">Services</Link></li>
-            <li><Link to="/about" className="text-cream-100/90 hover:text-azure-300 transition-colors">About</Link></li>
-            <li><Link to="/contact" className="text-cream-100/90 hover:text-azure-300 transition-colors">Contact</Link></li>
+            <li><Link to="/" className="text-cream-100/90 hover:text-cream-50 transition-colors">Home</Link></li>
+            <li><Link to="/#how-it-works" className="text-cream-100/90 hover:text-cream-50 transition-colors">How it works</Link></li>
+            <li><Link to="/#pricing" className="text-cream-100/90 hover:text-cream-50 transition-colors">Services</Link></li>
+            <li><Link to="/about" className="text-cream-100/90 hover:text-cream-50 transition-colors">About</Link></li>
+            <li><Link to="/contact" className="text-cream-100/90 hover:text-cream-50 transition-colors">Contact</Link></li>
           </ul>
         </div>
       </div>

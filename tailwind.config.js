@@ -19,13 +19,6 @@ export default {
           600: '#2E4C7A',
           500: '#3A5E92',
         },
-        // Bright accent blue (pops on cream + on navy)
-        azure: {
-          300: '#93B5DD',
-          400: '#5C87C6',
-          500: '#3A6BA8',
-          600: '#2C5286',
-        },
         // Ink / warm dark
         ink: {
           900: '#1A1612',

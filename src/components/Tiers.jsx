@@ -81,7 +81,7 @@ export default function Tiers() {
               <ul className={`mt-8 space-y-3 ${t.feature ? 'text-cream-100/90' : 'text-ink-800'}`}>
                 {t.bullets.map((b) => (
                   <li key={b} className="flex items-start gap-3 text-sm">
-                    <span className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 ${t.feature ? 'bg-azure-300' : 'bg-forest-700'}`} />
+                    <span className={`mt-1.5 w-1.5 h-1.5 rounded-full shrink-0 ${t.feature ? 'bg-cream-100/60' : 'bg-forest-700'}`} />
                     {b}
                   </li>
                 ))}

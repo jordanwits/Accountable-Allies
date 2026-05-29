@@ -29,8 +29,8 @@ export default function BeforeAfter() {
           <p className="eyebrow !text-cream-100/80">The whole job, in one sentence</p>
           <h2 className="font-display text-5xl md:text-7xl mt-5 leading-[1] text-cream-50 tracking-tightest max-w-4xl mx-auto">
             My job is to move you from the{' '}
-            <span className="italic-fraunces text-azure-300">left</span> to the{' '}
-            <span className="italic-fraunces text-azure-300">right.</span>
+            <span className="italic-fraunces text-ochre-400">left</span> to the{' '}
+            <span className="italic-fraunces text-ochre-400">right.</span>
           </h2>
         </div>
 
@@ -61,15 +61,15 @@ export default function BeforeAfter() {
           </div>
 
           {/* AFTER */}
-          <div className="reveal relative bg-gradient-to-br from-forest-700 to-forest-800 border border-azure-300/30 p-10 md:p-14 md:rounded-r-sm">
-            <div className="absolute top-6 right-6 font-display italic-fraunces text-azure-300 text-sm">
+          <div className="reveal relative bg-gradient-to-br from-forest-700 to-forest-800 border border-cream-100/20 p-10 md:p-14 md:rounded-r-sm">
+            <div className="absolute top-6 right-6 font-display italic-fraunces text-cream-100/70 text-sm">
               with Patti
             </div>
-            <p className="eyebrow !text-cream-50">After</p>
+            <p className="eyebrow !text-cream-100/80">After</p>
             <ul className="mt-8 space-y-7">
               {after.map((a, i) => (
                 <li key={a} className="flex items-baseline gap-5">
-                  <span className="font-mono text-xs text-azure-300 tabnum">{String(i + 1).padStart(2, '0')}</span>
+                  <span className="font-mono text-xs text-cream-100/50 tabnum">{String(i + 1).padStart(2, '0')}</span>
                   <span className="font-display text-4xl md:text-5xl text-cream-50 leading-none tracking-tightest">
                     {a}
                   </span>

@@ -68,8 +68,8 @@ export default function About() {
 
         <div className="relative max-w-[1300px] mx-auto grid md:grid-cols-12 gap-10">
           <aside className="md:col-span-3 md:sticky md:top-32 md:self-start">
-            <p className="font-mono text-xs text-azure-300 tracking-widest">STORY ONE</p>
-            <p className="font-display text-7xl text-azure-300/60 mt-4 leading-none">I.</p>
+            <p className="font-mono text-xs text-cream-100/60 tracking-widest">STORY ONE</p>
+            <p className="font-display text-7xl text-ochre-400 mt-4 leading-none">I.</p>
             <p className="italic-fraunces text-cream-100/80 mt-4 max-w-[200px] leading-relaxed">
               The one with the IRS, the $1,900, and the refund.
             </p>
@@ -78,7 +78,7 @@ export default function About() {
           <div className="md:col-span-9 reveal">
             <h2 className="font-display text-5xl md:text-7xl leading-[0.98] tracking-tightest">
               "Ignorance{' '}
-              <span className="italic-fraunces text-azure-300">is not an excuse."</span>
+              <span className="italic-fraunces text-ochre-400">is not an excuse."</span>
             </h2>
             <p className="text-sm text-cream-100/60 mt-3 italic-fraunces">
               the IRS agent, across the interrogation desk
@@ -90,15 +90,15 @@ export default function About() {
               </p>
               <p>
                 The IRS doesn't see it that way. More than a year later, a letter arrived saying I needed to appear. The agent who sat across the interrogation desk told me I likely owed{' '}
-                <span className="font-display text-azure-300 italic-fraunces tabnum">$1,900</span> in taxes and penalties. I explained my reasoning. He told me that's not how it works. I lowered my head and said I didn't know. His response has stuck with me ever since:
+                <span className="font-display text-ochre-400 italic-fraunces tabnum">$1,900</span> in taxes and penalties. I explained my reasoning. He told me that's not how it works. I lowered my head and said I didn't know. His response has stuck with me ever since:
               </p>
-              <p className="font-display italic-fraunces text-2xl md:text-3xl text-azure-300 my-4">
+              <p className="font-display italic-fraunces text-2xl md:text-3xl text-ochre-400 my-4">
                 "Ignorance is not an excuse."
               </p>
               <p>
                 Here's the part I love: I had every record &mdash; albeit all of it in a shoe box. Check stubs for every payment received, matched to the 1099. Every receipt accounted for. Even the mileage to and from. If I'd known how to keep books back then, it would've been logged instead of loose in a box. When we worked through what was earned versus what was an expense, the number didn't go in the direction the agent expected.
               </p>
-              <p className="text-azure-300 italic-fraunces font-display text-2xl md:text-3xl leading-snug">
+              <p className="text-ochre-400 italic-fraunces font-display text-2xl md:text-3xl leading-snug">
                 I walked out with the IRS owing us a refund.
               </p>
               <p>
@@ -113,8 +113,8 @@ export default function About() {
       <section className="relative py-24 md:py-32 px-6 md:px-10">
         <div className="max-w-[1300px] mx-auto grid md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-5 reveal">
-            <p className="font-mono text-xs text-azure-500 tracking-widest">STORY TWO</p>
-            <p className="font-display text-7xl text-azure-500/40 mt-4 leading-none">II.</p>
+            <p className="font-mono text-xs text-forest-600 tracking-widest">STORY TWO</p>
+            <p className="font-display text-7xl text-forest-800 mt-4 leading-none">II.</p>
             <h2 className="font-display italic-fraunces text-3xl md:text-4xl mt-6 text-forest-800 leading-tight tracking-tightest">
               The high-school geometry story, which is also the whole philosophy.
             </h2>
@@ -146,8 +146,8 @@ export default function About() {
       <section className="relative py-24 md:py-32 px-6 md:px-10 bg-cream-50 border-y border-ink-700/10">
         <div className="max-w-[1300px] mx-auto grid md:grid-cols-12 gap-10">
           <div className="md:col-span-4 reveal">
-            <p className="font-mono text-xs text-azure-500 tracking-widest">STORY THREE</p>
-            <p className="font-display text-7xl text-azure-500/40 mt-4 leading-none">III.</p>
+            <p className="font-mono text-xs text-forest-600 tracking-widest">STORY THREE</p>
+            <p className="font-display text-7xl text-forest-800 mt-4 leading-none">III.</p>
             <h2 className="font-display italic-fraunces text-3xl md:text-4xl mt-6 text-forest-800 leading-tight tracking-tightest">
               How I ended up an accountant instead of a mortician.
             </h2>
@@ -175,7 +175,7 @@ export default function About() {
             <span className="italic-fraunces text-forest-800">the hard way,</span>
             <br />
             I've learned how to make them{' '}
-            <span className="italic-fraunces text-azure-500">simpler</span>{' '}
+            <span className="italic-fraunces text-forest-800">simpler</span>{' '}
             for everyone else.
           </h2>
           <Link to="/contact" className="btn-primary mt-12">

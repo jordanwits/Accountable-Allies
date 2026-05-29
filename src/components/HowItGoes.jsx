@@ -40,7 +40,7 @@ export default function HowItGoes() {
               className="reveal relative flex gap-5 sm:gap-6 md:gap-8 items-start"
               style={{ transitionDelay: `${i * 80}ms` }}
             >
-              <span className="shrink-0 font-display text-7xl md:text-8xl text-azure-500/40 tracking-tightest tabnum leading-none -mt-3">
+              <span className="shrink-0 font-display text-7xl md:text-8xl text-forest-900 tracking-tightest tabnum leading-none -mt-3">
                 {s.n}
               </span>
               <div className="min-w-0 pt-1">
