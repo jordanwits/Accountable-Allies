@@ -59,7 +59,7 @@ export default function Tiers() {
               key={t.name}
               className={`reveal relative p-8 md:p-10 flex flex-col ${
                 t.feature
-                  ? 'bg-forest-800 text-cream-50 -my-4 z-10 shadow-2xl'
+                  ? 'bg-forest-800 text-cream-50 md:-my-4 z-10 shadow-2xl'
                   : 'bg-cream-50 text-ink-900 border border-ink-700/10'
               }`}
               style={{ transitionDelay: `${i * 100}ms` }}

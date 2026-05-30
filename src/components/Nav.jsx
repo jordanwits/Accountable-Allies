@@ -14,8 +14,9 @@ export default function Nav() {
   const { pathname } = useLocation()
 
   // On interior pages (light backgrounds) the nav must stay solid even at the
-  // top of scroll; only the home hero gets the transparent treatment.
-  const solid = scrolled || pathname !== '/'
+  // top of scroll; only the home hero gets the transparent treatment. The open
+  // mobile menu also forces a solid bar so the cream panel reads as one block.
+  const solid = scrolled || pathname !== '/' || open
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20)
@@ -55,7 +56,7 @@ export default function Nav() {
           </span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-10">
+        <nav className="hidden lg:flex items-center gap-10">
           {links.map((l) =>
             l.route ? (
               <NavLink
@@ -95,7 +96,7 @@ export default function Nav() {
 
         <Link
           to="/contact"
-          className={`hidden md:inline-flex items-center gap-2 text-sm py-2.5 pl-5 pr-4 rounded-full border transition-all duration-500 ${
+          className={`hidden lg:inline-flex items-center gap-2 text-sm py-2.5 pl-5 pr-4 rounded-full border transition-all duration-500 ${
             solid
               ? 'bg-forest-800 border-forest-900 text-cream-50 hover:bg-forest-900 shadow-[0_1px_0_rgba(255,255,255,0.07)_inset,0_6px_18px_-8px_rgba(21,34,56,0.55)]'
               : 'bg-transparent border-cream-100/60 text-cream-100 hover:bg-cream-100/10'
@@ -109,7 +110,7 @@ export default function Nav() {
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
           aria-controls="mobile-nav-panel"
-          className="md:hidden inline-flex flex-col gap-1.5 p-2"
+          className="lg:hidden inline-flex flex-col gap-1.5 p-2"
           onClick={() => setOpen(!open)}
         >
           <span className={`block w-6 h-px transition-colors transition-transform ${solid ? 'bg-ink-900' : 'bg-cream-100'} ${open ? 'rotate-45 translate-y-[3px]' : ''}`} />
@@ -118,7 +119,7 @@ export default function Nav() {
       </div>
 
       {open && (
-        <div id="mobile-nav-panel" className="md:hidden bg-cream-50 border-t border-ink-700/10 px-6 py-8">
+        <div id="mobile-nav-panel" className="lg:hidden bg-cream-50 border-t border-ink-700/10 px-6 py-8 shadow-[0_24px_40px_-24px_rgba(26,22,18,0.45)]">
           <nav className="flex flex-col gap-5">
             {links.map((l) => (
               <Link

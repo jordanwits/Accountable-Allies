@@ -36,7 +36,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-10 min-h-[100svh] flex flex-col justify-center">
+      <div className="relative z-10 max-w-[1400px] mx-auto px-6 md:px-10 min-h-[100svh] flex flex-col justify-start md:justify-center pt-28 pb-16 md:pt-0 md:pb-0">
         <div />
 
         {/* Main headline grid */}
@@ -83,7 +83,7 @@ export default function Hero() {
           <div className="md:col-span-4 flex flex-col gap-6 animate-fade-up" style={{ animationDelay: '400ms' }}>
             <div className="relative">
               {/* Polaroid-style frame */}
-              <div className="relative bg-cream-50 p-3 pb-12 rotate-[1.5deg] shadow-2xl max-w-[280px] ml-auto">
+              <div className="relative bg-cream-50 p-3 pb-12 rotate-[1.5deg] shadow-2xl max-w-[240px] sm:max-w-[280px] mx-auto md:ml-auto md:mr-0">
                 <img src="/PattiPortrait.jpeg" alt="Portrait of Patti" className="w-full aspect-[5/6] object-cover" />
                 <p className="italic-fraunces text-ink-700 text-center mt-3 text-sm">
                   Patti at her desk in the morning

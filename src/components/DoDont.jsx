@@ -16,7 +16,7 @@ const dontList = [
 
 export default function DoDont() {
   return (
-    <section className="relative py-28 md:py-36 px-6 md:px-10">
+    <section className="relative pt-28 pb-16 md:pt-36 md:pb-20 px-6 md:px-10">
       <div className="max-w-[1300px] mx-auto">
         <div className="mb-16 reveal">
           <p className="eyebrow">Scope of work</p>

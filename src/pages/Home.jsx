@@ -25,7 +25,7 @@ export default function Home() {
       <DoDont />
 
       {/* Closing CTA */}
-      <section className="relative py-32 px-6 md:px-10 overflow-hidden">
+      <section className="relative pt-16 pb-32 px-6 md:px-10 overflow-hidden">
         <div className="max-w-4xl mx-auto text-center reveal">
           <p className="eyebrow text-ink-500">One more thing</p>
           <h2 className="font-display text-5xl md:text-7xl mt-6 leading-[1.02] text-ink-900 tracking-tightest">
