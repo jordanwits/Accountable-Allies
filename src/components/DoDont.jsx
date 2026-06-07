@@ -9,7 +9,7 @@ const doList = [
 
 const dontList = [
   { item: 'Tax strategy or tax filing', why: 'That\'s a CPA\'s job, and I\'ll point you to a good one.' },
-  { item: 'CFO work', why: 'I do the numbers; I don\'t do strategy at that altitude.' },
+  { item: 'CFO work', why: 'I do the numbers, not the strategy.' },
   { item: 'Business consulting', why: 'I won\'t pretend I know your industry better than you do.' },
   { item: 'Anything I haven\'t done a hundred times', why: 'I stay in my lane on purpose.' },
 ]

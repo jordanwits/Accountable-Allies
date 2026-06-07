@@ -1,6 +1,6 @@
 export default function Marquee() {
   const items = [
-    'First-person, always',
+    'Phone calls returned, not dodged',
     'QuickBooks ProAdvisor',
     'No hype. No jargon.',
     "I pick up my own phone",

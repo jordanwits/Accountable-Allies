@@ -29,7 +29,7 @@ export default function AboutBlock() {
           </h2>
           <p className="mt-6 text-ink-700 text-lg leading-relaxed">
             In my early twenties, my husband got a 1099 for side work that all went right back out to expenses, so I figured there was nothing to file. The IRS didn't see it that way. The agent told me I likely owed $1,900 and said the line I've never forgotten:{' '}
-            <em className="italic-fraunces text-forest-800">"Ignorance is not an excuse."</em>
+            <em className="italic-fraunces text-forest-800">"Ignorance is not bliss."</em>
           </p>
           <p className="mt-5 text-ink-700 text-lg leading-relaxed">
             But I had every record, even if it was all in a shoe box. When the dust settled, I walked out with the IRS{' '}
@@ -40,7 +40,7 @@ export default function AboutBlock() {
           </p>
 
           <Link to="/about" className="btn-ghost mt-10">
-            Read the rest of the story
+            Read why I went accountant instead of mortician
             <span>→</span>
           </Link>
         </div>

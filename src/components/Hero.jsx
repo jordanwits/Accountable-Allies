@@ -96,8 +96,16 @@ export default function Hero() {
           </div>
         </div>
 
+        {/* Subline */}
+        <p
+          className="text-cream-50/70 text-lg md:text-xl mt-8 max-w-xl animate-fade-up"
+          style={{ animationDelay: '420ms' }}
+        >
+          Strategic bookkeeping for owner-operators who'd rather not be doing this themselves.
+        </p>
+
         {/* CTAs */}
-        <div className="flex flex-wrap gap-4 items-center mt-16 animate-fade-up" style={{ animationDelay: '550ms' }}>
+        <div className="flex flex-wrap gap-4 items-center mt-10 animate-fade-up" style={{ animationDelay: '550ms' }}>
           <Link to="/contact" className="btn-primary">
             Schedule a conversation
             <span className="arrow">→</span>

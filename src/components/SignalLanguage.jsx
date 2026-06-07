@@ -52,7 +52,7 @@ export default function SignalLanguage() {
               <div className="relative bg-cream-50 p-3 pb-12 rotate-[1.5deg] shadow-2xl max-w-[280px]">
                 <img src="/PattiAndHusband.png" alt="Patti and her husband" className="w-full aspect-[5/6] object-cover" />
                 <p className="italic-fraunces text-ink-700 text-center mt-3 text-sm">
-                  Patti and her Husband
+                  Patti and her husband
                 </p>
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-16 h-6 bg-ochre-400/70 rotate-[-3deg] border border-ochre-500/40" />
               </div>
