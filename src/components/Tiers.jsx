@@ -66,7 +66,7 @@ export default function Tiers() {
             >
               {t.feature && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-ochre-500 text-forest-900 px-4 py-1 text-xs uppercase tracking-[0.18em] font-medium">
-                  Where most folks land
+                  Where most land
                 </div>
               )}
 
