@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Scheduler from '../components/Scheduler'
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
@@ -29,11 +30,10 @@ export default function Contact() {
               <p className="text-sm text-ink-500">Call or text</p>
               <a
                 href="tel:+15309832596"
-                className="font-display text-4xl md:text-5xl text-ink-900 tracking-tightest tabnum hover:text-forest-800 transition-colors"
+                className="font-display text-2xl md:text-3xl text-ink-900 tracking-tightest tabnum hover:text-forest-800 transition-colors"
               >
                 (530) 983-2596
               </a>
-              <p className="margin-note mt-2">Yes, I actually pick up.</p>
             </div>
 
             <div className="rule" />
@@ -42,7 +42,7 @@ export default function Contact() {
               <p className="text-sm text-ink-500">Email</p>
               <a
                 href="mailto:Patti@accountableallies.com"
-                className="font-display text-2xl md:text-3xl text-ink-900 tracking-tightest hover:text-forest-800 transition-colors break-all"
+                className="font-display text-xl md:text-2xl text-ink-900 tracking-tightest hover:text-forest-800 transition-colors break-all"
               >
                 Patti@accountable<wbr />allies.com
               </a>
@@ -56,8 +56,16 @@ export default function Contact() {
           </div>
         </aside>
 
-        {/* RIGHT: Form */}
-        <div className="md:col-span-7 reveal">
+        {/* RIGHT: Scheduler + Form */}
+        <div className="md:col-span-7 reveal space-y-10 md:space-y-12">
+          <Scheduler />
+
+          <div className="flex items-center gap-4" aria-hidden="true">
+            <div className="rule" />
+            <span className="eyebrow whitespace-nowrap text-ink-500">Or</span>
+            <div className="rule" />
+          </div>
+
           <div className="card-paper p-8 md:p-12 relative">
             <p className="eyebrow">Send a note</p>
             <h2 className="font-display text-3xl md:text-4xl mt-4 leading-tight tracking-tightest text-ink-900">
@@ -65,7 +73,7 @@ export default function Contact() {
               <span className="italic-fraunces text-forest-800">No essay required.</span>
             </h2>
             <p className="margin-note mt-4">
-              From here we'll set up a call, enough for me to understand the level of work and what my fee will be. No business is the same, so I don't cookie-cutter my work or my pricing.
+              Rather write first? Tell me what's going on and we'll set up a call from there. No business is the same, so I don't cookie-cutter my work or my pricing.
             </p>
 
             {submitted ? (
@@ -117,7 +125,7 @@ export default function Contact() {
                     rows={5}
                     required
                     name="message"
-                    placeholder="Two sentences is plenty. We can dig in on the call."
+                    placeholder="Type your message here."
                   />
                 </label>
 
