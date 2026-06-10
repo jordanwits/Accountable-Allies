@@ -44,13 +44,13 @@ export default function About() {
         <div className="max-w-3xl mx-auto reveal">
           <p className="eyebrow">The short version</p>
           <p className="font-display text-3xl md:text-4xl mt-6 leading-[1.2] text-ink-900 tracking-tightest">
-            I open my BNI talk with this line, and I'll open this page with it too:
+            Here's the line I'd lead with if you only had thirty seconds:
           </p>
           <p className="font-display italic-fraunces text-5xl md:text-7xl mt-8 text-forest-800 leading-[1.05] tracking-tightest">
-            "I've done life the hard way."
+            "I've been keeping careful records since long before anyone paid me to."
           </p>
           <p className="mt-8 text-ink-700 text-lg leading-relaxed">
-            What follows are the three stories that earn me the right to say that, and the reason I'm pretty good at making things easier for the people I work with.
+            Three stories explain what I mean. They're also the reason I'm pretty good at making this easier for the people I work with.
           </p>
         </div>
       </section>
@@ -116,7 +116,7 @@ export default function About() {
             <p className="font-mono text-xs text-forest-600 tracking-widest">STORY TWO</p>
             <p className="font-display text-7xl text-forest-800 mt-4 leading-none">II.</p>
             <h2 className="font-display italic-fraunces text-3xl md:text-4xl mt-6 text-forest-800 leading-tight tracking-tightest">
-              Why I only care about the bottom line.
+              Why all you need to see is the bottom line.
             </h2>
           </div>
           <div className="md:col-span-7 reveal">
@@ -171,12 +171,11 @@ export default function About() {
         <div className="max-w-4xl mx-auto text-center reveal">
           <p className="eyebrow">The whole point</p>
           <h2 className="font-display text-5xl md:text-7xl mt-6 leading-[1] text-ink-900 tracking-tightest">
-            Because I've done things{' '}
-            <span className="italic-fraunces text-forest-800">the hard way,</span>
-            <br />
-            I've learned how to make them{' '}
-            <span className="italic-fraunces text-forest-800">simpler</span>{' '}
-            for everyone else.
+            Three stories,{' '}
+            <span className="italic-fraunces text-forest-800">one habit:</span>{' '}
+            I keep the kind of records that make surprises go{' '}
+            in{' '}
+            <span className="italic-fraunces text-forest-800">your favor.</span>
           </h2>
           <Link to="/contact" className="btn-primary mt-12">
             Let's have a conversation
