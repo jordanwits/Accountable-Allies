@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="md:col-span-5">
           <p className="eyebrow !text-cream-100/80">Accountable Allies, LLC</p>
           <h3 className="font-display text-3xl md:text-4xl mt-4 leading-[1.05] text-cream-50">
-            I've done life the hard way, which is exactly{' '}
-            <span className="italic-fraunces text-ochre-400">why your books don't have to be.</span>
+            You don't have to understand any of this.{' '}
+            <span className="italic-fraunces text-ochre-400">That's what I'm here for.</span>
           </h3>
         </div>
 
