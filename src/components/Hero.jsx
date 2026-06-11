@@ -5,9 +5,9 @@ const HEADLINE_OPTIONS = [
   {
     greeting: "Hi, I'm Patti.",
     headline: <>You don't have to understand <span className="text-ochre-400">any of this.</span>{' '}
-      <span className="relative whitespace-nowrap">
+      <span className="relative underline decoration-ochre-400 decoration-wavy underline-offset-4 sm:no-underline sm:whitespace-nowrap">
         That's what I'm here for.
-        <svg aria-hidden="true" viewBox="0 0 480 18" className="absolute left-0 right-0 -bottom-3 w-full h-3 text-ochre-400" preserveAspectRatio="none">
+        <svg aria-hidden="true" viewBox="0 0 480 18" className="hidden sm:block absolute left-0 right-0 -bottom-3 w-full h-3 text-ochre-400" preserveAspectRatio="none">
           <path d="M2,12 Q120,2 240,8 T478,7" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
         </svg>
       </span>
@@ -17,9 +17,9 @@ const HEADLINE_OPTIONS = [
   {
     greeting: "Hi, I'm Patti.",
     headline: <>Your books, calmly kept. By the <span className="text-ochre-400">same person</span>,{' '}
-      <span className="relative whitespace-nowrap">
+      <span className="relative underline decoration-ochre-400 decoration-wavy underline-offset-4 sm:no-underline sm:whitespace-nowrap">
         every month.
-        <svg aria-hidden="true" viewBox="0 0 480 18" className="absolute left-0 right-0 -bottom-3 w-full h-3 text-ochre-400" preserveAspectRatio="none">
+        <svg aria-hidden="true" viewBox="0 0 480 18" className="hidden sm:block absolute left-0 right-0 -bottom-3 w-full h-3 text-ochre-400" preserveAspectRatio="none">
           <path d="M2,12 Q120,2 240,8 T478,7" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
         </svg>
       </span>
