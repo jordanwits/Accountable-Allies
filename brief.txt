@@ -20,9 +20,9 @@ Her own framing for all of this — and it should anchor the homepage and About 
 3. Patti’s stories — the heart of the copy rewrite
 
 These three stories came directly from Patti and are stories she loves telling. They are the centerpiece of the About page and should be threaded through the rest of the site where they fit. Each one does specific work — humanizing her, illustrating a value, or demonstrating her competence without her bragging.
-Story 1 — The IRS audit (“Ignorance is not bliss”)
-Early in Patti’s career, she and her husband had a 1099 from a business that didn’t make any money, so she didn’t file it with the IRS. The IRS audited her anyway. The agent told her she likely owed $1,900 and said the now-famous line: “Ignorance is not bliss.” But because Patti’s records were meticulous, when the dust settled she actually walked out with an additional refund — not a bill.
-Why it earns its keep: this is the single best story in the set. It’s self-deprecating (she’s the one who got audited), it teaches the lesson she sells (good records protect you), it has a memorable hook (“Ignorance is not bliss”), and it ends with the kicker that her competence turned a bill into a refund. She doesn’t have to claim she’s good — the story does it for her.
+Story 1 — The IRS audit (“Ignorance is never an excuse”)
+Early in Patti’s career, she and her husband had a 1099 from a business that didn’t make any money, so she didn’t file it with the IRS. The IRS audited her anyway. The agent told her she likely owed $1,900 and said the now-famous line: “Ignorance is never an excuse.” But because Patti’s records were meticulous, when the dust settled she actually walked out with an additional refund — not a bill.
+Why it earns its keep: this is the single best story in the set. It’s self-deprecating (she’s the one who got audited), it teaches the lesson she sells (good records protect you), it has a memorable hook (“Ignorance is never an excuse”), and it ends with the kicker that her competence turned a bill into a refund. She doesn’t have to claim she’s good — the story does it for her.
 Where to use it: About page, prominently. Could also be teased on the homepage as a credibility moment. This is the one we lead with.
 Story 2 — High school algebra (“The only thing that matters is the BOTTOM LINE”)
 Patti consistently got the right answers on her algebra tests but didn’t show her work, so she was failing. She asked her teacher why she was failing when her answers were right. He said it was because she didn’t show her work. Her response (and the line she loves): “The only thing that matters is the bottom line.”
@@ -135,7 +135,7 @@ About page
 Rewritten in first person.
 Opens with Story 3 (mortician aptitude test) — sets the tone.
 Body: how she got into bookkeeping, what she’s learned about why owners get stuck.
-Centerpiece: Story 1 (IRS audit) — do not paraphrase the “Ignorance is not bliss” line; keep it verbatim.
+Centerpiece: Story 1 (IRS audit) — do not paraphrase the “Ignorance is never an excuse” line; keep it verbatim.
 Pair Story 2 (bottom line) here or use as a pull-quote between sections.
 Close on the “hard way / simpler for you” arc (Section 8a): “Because I’ve done things the hard way, I’ve learned how to make things simpler and less overwhelming for others.” End with a soft CTA to the contact/booking page.
 Services page

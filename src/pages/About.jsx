@@ -78,7 +78,7 @@ export default function About() {
           <div className="md:col-span-9 reveal">
             <h2 className="font-display text-5xl md:text-7xl leading-[0.98] tracking-tightest">
               Ignorance{' '}
-              <span className="italic-fraunces text-ochre-400">is not bliss.</span>
+              <span className="italic-fraunces text-ochre-400">is never an excuse.</span>
             </h2>
             <p className="text-sm text-cream-100/60 mt-3 italic-fraunces">
               the IRS agent, across the interrogation desk
@@ -93,7 +93,7 @@ export default function About() {
                 <span className="font-display text-ochre-400 italic-fraunces tabnum">$1,900</span> in taxes and penalties. I explained my reasoning. He told me that's not how it works. I lowered my head and said I didn't know. His response has stuck with me ever since:
               </p>
               <p className="font-display italic-fraunces text-2xl md:text-3xl text-ochre-400 my-4">
-                "Ignorance is not bliss."
+                "Ignorance is never an excuse."
               </p>
               <p>
                 Here's the part I love: I had every record, all of it in a shoe box. Check stubs for every payment received, matched to the 1099. Every receipt accounted for. Even the mileage to and from. If I'd known how to keep books back then, it would've been logged instead of loose in a box. When we worked through what was earned versus what was an expense, the number didn't go in the direction the agent expected.
