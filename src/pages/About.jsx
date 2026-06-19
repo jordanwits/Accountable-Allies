@@ -56,7 +56,7 @@ export default function About() {
       </section>
 
       {/* STORY 1: IRS Audit, centerpiece */}
-      <section className="relative py-24 md:py-32 px-6 md:px-10 bg-forest-900 text-cream-50 overflow-hidden">
+      <section id="story-1" className="relative py-24 md:py-32 px-6 md:px-10 bg-forest-900 text-cream-50 overflow-hidden">
         <div
           className="absolute inset-0 opacity-20 mix-blend-overlay pointer-events-none"
           style={{

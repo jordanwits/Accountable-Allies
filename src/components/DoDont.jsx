@@ -22,7 +22,7 @@ export default function DoDont() {
           <p className="eyebrow">Scope of work</p>
           <h2 className="font-display text-5xl md:text-7xl mt-5 leading-[1] text-ink-900 tracking-tightest max-w-4xl">
             What I do.{' '}
-            <span className="italic-fraunces text-forest-900">And what I won't pretend to do.</span>
+            <span className="italic-fraunces text-forest-900">And what I don't pretend to do.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-ink-700 text-lg">
             I'm strict about my scope, for your sake and mine. Knowing exactly what you're getting (and what you're not) is half the value.
