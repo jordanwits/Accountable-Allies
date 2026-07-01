@@ -26,9 +26,9 @@ export default function About() {
 
           <div className="md:col-span-5 relative flex justify-center md:justify-start">
             <div className="relative w-64 md:w-72">
-              <img src="/PattiPortrait.jpeg" alt="Patti portrait" className="w-full aspect-[3/4] object-cover object-top" />
+              <img src="/PattiAndHusband.png" alt="Patti and her husband" className="w-full aspect-[3/4] object-cover object-top" />
               {/* corner stamp */}
-              <div className="absolute -top-4 -left-4 bg-cream-50 border border-ink-700/20 px-4 py-3 shadow-lg rotate-[-3deg]">
+              <div className="absolute -top-10 -left-4 bg-cream-50 border border-ink-700/20 px-4 py-3 shadow-lg rotate-[-3deg]">
                 <p className="font-display text-2xl text-forest-800 leading-tight tracking-tightest">
                   Patti
                 </p>
