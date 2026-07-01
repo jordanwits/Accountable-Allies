@@ -1,7 +1,7 @@
 const tiers = [
   {
     name: 'Foundation',
-    sub: 'For small business owners getting their footing.',
+    sub: 'For small business owners.',
     desc: 'A clean set of books, reconciled to the bank, with a simple monthly rhythm. The basics, done right.',
     bullets: [
       'Monthly reconciliation',
