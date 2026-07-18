@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import Scheduler from '../components/Scheduler'
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
@@ -56,16 +55,8 @@ export default function Contact() {
           </div>
         </aside>
 
-        {/* RIGHT: Scheduler + Form */}
+        {/* RIGHT: Form */}
         <div className="md:col-span-7 reveal space-y-10 md:space-y-12">
-          <Scheduler />
-
-          <div className="flex items-center gap-4" aria-hidden="true">
-            <div className="rule" />
-            <span className="eyebrow whitespace-nowrap text-ink-500">Or</span>
-            <div className="rule" />
-          </div>
-
           <div className="card-paper p-8 md:p-12 relative">
             <p className="eyebrow">Send a note</p>
             <h2 className="font-display text-3xl md:text-4xl mt-4 leading-tight tracking-tightest text-ink-900">
