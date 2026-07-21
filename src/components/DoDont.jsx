@@ -1,11 +1,11 @@
 const doList = [
-  'Strategic bookkeeping',
-  'Catch-up & cleanup',
-  'Monthly close',
-  'QuickBooks setup & maintenance',
-  'Payroll & the tax filings that come with it',
-  'Reports you can actually read',
-  'Pickup-the-phone communication',
+  { item: 'Strategic bookkeeping', why: 'Turning your financial data into meaningful insights, not just tidy records.' },
+  { item: 'Catch-up & cleanup', why: 'Inaccurate numbers, unrecorded sales, and unreliable data leave you unsure and unsteady. I fix that.' },
+  { item: 'Monthly close', why: 'Standardized month-end procedures that keep your books accurate and consistent.' },
+  { item: 'QuickBooks setup & maintenance', why: 'Set up right and kept current, so the software works for you, not against you.' },
+  { item: 'Payroll & the tax filings that come with it', why: 'I make sure your employees are paid accurately and on time.' },
+  { item: 'Reports you can actually read', why: 'Clear, detailed financial reports with insights you can actually act on.' },
+  { item: 'Pickup-the-phone communication', why: 'Questions, concerns, ideas? Call me. I\'ll answer, and we\'ll strategize together.' },
 ]
 
 const dontList = [
@@ -40,10 +40,15 @@ export default function DoDont() {
               The work I show up for, every time.
             </h3>
             <ul className="mt-8 space-y-1">
-              {doList.map((d, i) => (
-                <li key={d} className="group flex items-start gap-4 py-4 border-t border-cream-100/15 first:border-t-0">
-                  <span className="font-mono text-xs text-cream-100/50 tabnum mt-1.5">{String(i + 1).padStart(2, '0')}</span>
-                  <span className="text-cream-50 text-lg leading-snug">{d}</span>
+              {doList.map((d) => (
+                <li key={d.item} className="py-4 border-t border-cream-100/15 first:border-t-0">
+                  <div className="flex items-start gap-4">
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-ochre-500 shrink-0" />
+                    <div>
+                      <p className="text-cream-50 text-lg leading-snug">{d.item}</p>
+                      <p className="font-display italic text-[0.95rem] text-cream-100/70 leading-normal mt-1">{d.why}</p>
+                    </div>
+                  </div>
                 </li>
               ))}
             </ul>
@@ -58,10 +63,10 @@ export default function DoDont() {
               And the things I'll send you to the right person for.
             </h3>
             <ul className="mt-8 space-y-1">
-              {dontList.map((d, i) => (
+              {dontList.map((d) => (
                 <li key={d.item} className="py-4 border-t border-ink-700/15 first:border-t-0">
                   <div className="flex items-start gap-4">
-                    <span className="font-mono text-xs text-terra-500 tabnum mt-1.5">{String(i + 1).padStart(2, '0')}</span>
+                    <span className="mt-2.5 w-1.5 h-1.5 rounded-full bg-terra-500 shrink-0" />
                     <div>
                       <p className="text-ink-900 text-lg leading-snug">{d.item}</p>
                       <p className="margin-note mt-1">{d.why}</p>
@@ -72,6 +77,10 @@ export default function DoDont() {
             </ul>
           </div>
         </div>
+
+        <p className="reveal mt-12 md:mt-16 text-center font-display italic-fraunces text-2xl md:text-3xl text-forest-800 leading-snug max-w-3xl mx-auto">
+          Tailored bookkeeping, designed to scale with your business as you grow.
+        </p>
       </div>
     </section>
   )
