@@ -11,6 +11,8 @@ function ScrollManager() {
   const { pathname, hash } = useLocation()
   useEffect(() => {
     if (hash) {
+      // Land at the top first, same as a plain nav click, then smooth-scroll down to the target.
+      window.scrollTo({ top: 0, behavior: 'instant' })
       // Defer so the destination route has mounted before we scroll to it.
       const id = requestAnimationFrame(() => {
         const el = document.querySelector(hash)

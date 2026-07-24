@@ -30,7 +30,7 @@ export default function DoDont() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6 md:gap-10">
+        <div className="grid grid-cols-1 gap-6 md:gap-10">
           {/* DO */}
           <div className="reveal relative bg-forest-800 text-cream-50 p-10 md:p-14 overflow-hidden">
             <div className="absolute top-6 right-6 font-display italic-fraunces text-cream-100/70">
