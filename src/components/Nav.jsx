@@ -45,15 +45,12 @@ export default function Nav() {
       }`}
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-5 flex items-center justify-between">
-        <Link to="/" className="group flex items-center gap-3">
-          <span className={`font-display italic-fraunces text-2xl leading-none translate-y-[-1px] transition-colors ${solid ? 'text-forest-800' : 'text-cream-100'}`}>
-            Accountable
-          </span>
-          <span className="hidden sm:inline-flex items-center gap-2">
-            <span className={`font-display text-2xl leading-none tracking-tightest transition-colors ${solid ? 'text-ink-900' : 'text-cream-100'}`}>
-              Allies
-            </span>
-          </span>
+        <Link to="/" className="flex items-center">
+          <img
+            src={solid ? '/AAlogo_Horiz.png' : '/AAlogo_HorizWHT.png'}
+            alt="Accountable Allies"
+            className="h-9 md:h-10 w-auto"
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-10">
