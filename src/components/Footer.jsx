@@ -23,8 +23,8 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="mailto:Patti@accountableallies.com" className="text-cream-100/90 hover:text-cream-50 transition-colors">
-                Patti@accountableallies.com
+              <a href="mailto:Patti@accountablealliesllc.com" className="text-cream-100/90 hover:text-cream-50 transition-colors">
+                Patti@accountablealliesllc.com
               </a>
             </li>
             <li className="text-cream-100/75 text-sm pt-2">I read every message myself.</li>

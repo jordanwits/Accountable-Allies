@@ -69,10 +69,10 @@ export default function Contact() {
             <div>
               <p className="text-sm text-ink-500">Email</p>
               <a
-                href="mailto:Patti@accountableallies.com"
+                href="mailto:Patti@accountablealliesllc.com"
                 className="font-display text-xl md:text-2xl text-ink-900 tracking-tightest hover:text-forest-800 transition-colors break-all"
               >
-                Patti@accountable<wbr />allies.com
+                Patti@accountable<wbr />alliesllc.com
               </a>
             </div>
 
