@@ -33,7 +33,7 @@ Deep-link caveat: the app uses BrowserRouter and `Public/` contains no `.htacces
 ## Conventions / gotchas
 
 - `motion` is listed in dependencies but never imported anywhere — all animation is CSS keyframes + the ScrollReveal pattern.
-- Contact has no form backend: Contact.jsx uses `mailto:` and `tel:` links only.
+- Contact form submits to Web3Forms (`https://api.web3forms.com/submit`) via client-side `fetch` in Contact.jsx, with the access key hardcoded as `WEB3FORMS_ACCESS_KEY` (Web3Forms access keys are meant to be public/client-side). The sidebar `mailto:`/`tel:` links remain as a direct-contact alternative alongside the form.
 - `Scheduler.jsx` is a mock booking UI with an explicitly commented Calendly integration seam — three functions at the top return mock data and are meant to be swapped for Calendly API calls. Calendly is in scope per the brief but not wired up.
 - `puppeteer-core` (required by scripts/shot.mjs) is present in node_modules but absent from package.json and package-lock.json — a fresh `npm install` will not restore it.
 - Only 4 of the 9 images in `Public/` are referenced by src: PattiAndHusband.png, PattiShoebox.png, ledger.jpg, workspace.jpg. The two PNGs are large and unoptimized (6.1 MB and 2.3 MB) and ship to production as-is.

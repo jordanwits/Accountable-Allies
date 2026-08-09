@@ -1,13 +1,42 @@
 import { useState } from 'react'
 
+const WEB3FORMS_ACCESS_KEY = '77ed94ec-f83f-4e2e-855d-4930034ae8fe'
+
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
   const [hp, setHp] = useState('')
+  const [sending, setSending] = useState(false)
+  const [error, setError] = useState('')
 
-  function onSubmit(e) {
+  async function onSubmit(e) {
     e.preventDefault()
     if (hp) return
-    setSubmitted(true)
+
+    const formData = new FormData(e.target)
+    formData.append('access_key', WEB3FORMS_ACCESS_KEY)
+    formData.append('subject', 'New message from accountablealliesllc.com')
+    formData.append('from_name', 'Accountable Allies contact form')
+
+    setSending(true)
+    setError('')
+
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { Accept: 'application/json' },
+        body: formData,
+      })
+      const result = await res.json()
+      if (result.success) {
+        setSubmitted(true)
+      } else {
+        setError("That didn't go through. Please try again or email me directly.")
+      }
+    } catch {
+      setError("That didn't go through. Please try again or email me directly.")
+    } finally {
+      setSending(false)
+    }
   }
 
   return (
@@ -120,10 +149,14 @@ export default function Contact() {
                   />
                 </label>
 
-                <button type="submit" className="btn-primary">
-                  Send it over
+                <button type="submit" className="btn-primary disabled:opacity-60 disabled:pointer-events-none" disabled={sending}>
+                  {sending ? 'Sending…' : 'Send it over'}
                   <span className="arrow">→</span>
                 </button>
+
+                {error && (
+                  <p className="text-sm text-terra-600">{error}</p>
+                )}
               </form>
             )}
           </div>
