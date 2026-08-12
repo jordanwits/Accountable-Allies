@@ -14,12 +14,12 @@ There are no lint, test, or typecheck scripts. `.claude/launch.json` defines a `
 
 ## Layout
 
-- `index.html` — SPA entry; loads Google Fonts and holds the SEO title/meta
+- `index.html` — SPA entry; loads Google Fonts and holds the SEO title/meta plus the favicon links and Open Graph/Twitter link-preview tags
 - `src/main.jsx` → `src/App.jsx` — BrowserRouter with 3 routes: `/` (Home), `/about`, `/contact`; App also mounts ScrollManager (hash-scroll + scroll-to-top on nav) and a skip link
 - `src/pages/` — Home.jsx, About.jsx, Contact.jsx
 - `src/components/` — Nav, Footer, Hero, Marquee, Tiers, DoDont, HowItGoes, BeforeAfter, AboutBlock, SignalLanguage, Scheduler, ScrollReveal
 - `src/styles/global.css` — Tailwind directives plus ~240 lines of custom classes (`.font-display`, `.reveal`, etc.) and CSS variables mirroring the palette
-- `Public/` — static assets (photos, favicon.svg). Note the capital P: wired via `publicDir: 'Public'` in vite.config.js — do not create a lowercase `public/`
+- `Public/` — static assets (photos, logos, favicons, og-image.png). Note the capital P: wired via `publicDir: 'Public'` in vite.config.js — do not create a lowercase `public/`
 - `scripts/shot.mjs` — puppeteer-core full-page screenshot helper (hardcoded Windows Chrome path; dev server must be running); outputs to `screenshots/`
 
 Styling: Tailwind with a custom palette defined in tailwind.config.js — `cream` (paper background), `forest` (navy), `ink` (warm dark text), `ochre`/`terra` accents. Fonts: Lora (serif/display via `.font-display`), Geist (sans/body), JetBrains Mono. Scroll-in animation is hand-rolled: give an element class `reveal`; ScrollReveal.jsx adds `in` via IntersectionObserver, re-armed on every route change.
@@ -36,4 +36,5 @@ Deep-link caveat: the app uses BrowserRouter and `Public/` contains no `.htacces
 - Contact form submits to Web3Forms (`https://api.web3forms.com/submit`) via client-side `fetch` in Contact.jsx, with the access key hardcoded as `WEB3FORMS_ACCESS_KEY` (Web3Forms access keys are meant to be public/client-side). The sidebar `mailto:`/`tel:` links remain as a direct-contact alternative alongside the form.
 - `Scheduler.jsx` is a mock booking UI with an explicitly commented Calendly integration seam — three functions at the top return mock data and are meant to be swapped for Calendly API calls. Calendly is in scope per the brief but not wired up.
 - `puppeteer-core` (required by scripts/shot.mjs) is present in node_modules but absent from package.json and package-lock.json — a fresh `npm install` will not restore it.
-- Only 4 of the 9 images in `Public/` are referenced by src: PattiAndHusband.png, PattiShoebox.png, ledger.jpg, workspace.jpg. The two PNGs are large and unoptimized (6.1 MB and 2.3 MB) and ship to production as-is.
+- Several photos in `Public/` are unreferenced leftovers; the ones src actually uses are PattiAndHusband.png, PattiShoebox.png, ledger.jpg, workspace.jpg. The two PNGs are large and unoptimized (6.1 MB and 2.3 MB) and ship to production as-is.
+- `favicon-32.png`, `favicon.png`, `apple-touch-icon.png` and `og-image.png` are generated from `AAlogo_Icon.png` / `AAlogo.png` (square-padded and centred on cream). Regenerate them if the logo changes rather than hand-editing.

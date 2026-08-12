@@ -1,7 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import { copyFileSync, mkdirSync } from 'node:fs'
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
+
+const SITE_URL = 'https://accountablealliesllc.com'
 
 // Static hosts serve files, not routes: they don't rewrite an unknown path to
 // index.html, so a direct visit to /about 404s even though client-side routing
@@ -25,9 +27,17 @@ function emitSpaRoutes(routes) {
     },
     closeBundle() {
       const dist = resolve(root, outDir)
+      const home = readFileSync(join(dist, 'index.html'), 'utf8')
       for (const route of routes) {
         mkdirSync(join(dist, route), { recursive: true })
-        copyFileSync(join(dist, 'index.html'), join(dist, route, 'index.html'))
+        // The copies are identical apart from og:url, which link scrapers use to
+        // canonicalise a shared URL — left as the homepage it would fold shared
+        // /about and /contact links back into /.
+        const html = home.replace(
+          `<meta property="og:url" content="${SITE_URL}/" />`,
+          `<meta property="og:url" content="${SITE_URL}/${route}" />`
+        )
+        writeFileSync(join(dist, route, 'index.html'), html)
       }
     },
   }
