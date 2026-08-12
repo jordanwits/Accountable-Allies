@@ -1,6 +1,6 @@
 # Accountable Allies
 
-Marketing site for Accountable Allies, LLC — Patti's solo strategic-bookkeeping practice (client work by West Wave Creative). Vite 5 + React 18 SPA (plain JSX, no TypeScript) with React Router 6 and Tailwind CSS 3. Ships as a static `vite build`; the client self-hosts on Hostinger — nothing in this repo auto-deploys.
+Marketing site for Accountable Allies, LLC — Patti's solo strategic-bookkeeping practice (client work by West Wave Creative). Vite 5 + React 18 SPA (plain JSX, no TypeScript) with React Router 6 and Tailwind CSS 3. Ships as a static `vite build`; hosted on Hostinger, which auto-deploys from the GitHub remote on push to `main`.
 
 The client brief lives at `brief.txt` (and `brief.docx`) in the repo root and is the source of truth for copy, scope, and Patti's three signature stories. Copy voice rules from the brief: first person ("I", never "we"), plain language, no hype or sales-speak.
 
@@ -26,9 +26,14 @@ Styling: Tailwind with a custom palette defined in tailwind.config.js — `cream
 
 ## Deployment
 
-No deploy config or CI exists in the repo (no netlify.toml, vercel.json, or .github/). Per `brief.txt`, the client self-hosts on Hostinger and delivery is the static `dist/` output — handed over or uploaded to her account at launch. Pushing to the GitHub remote (`jordanwits/Accountable-Allies`) does not deploy anything.
+Hostinger auto-deploys https://accountablealliesllc.com from the GitHub remote (`jordanwits/Accountable-Allies`) — a push to `main` is live in a couple of minutes. The deploy runs the build and publishes `dist/`, not the repo root: `/src/main.jsx` and `/Public/…` both 404 in production, and `dist/` stays gitignored. Nothing here configures that (no netlify.toml, vercel.json or .github/) — it is set up on the Hostinger side, so this repo gives no way to inspect or change it.
 
-Deep-link caveat: the app uses BrowserRouter and `Public/` contains no `.htaccess`/rewrite file, so on a plain static host `/about` and `/contact` will 404 on direct load unless an SPA fallback rewrite is added at deploy time.
+Two things that follow from how it publishes, both confirmed against the live site:
+
+- **Deletions do not propagate.** Files removed from the repo stay on the server; `favicon.svg` still served 200 after its commit deleted it. Assume anything ever deployed is still reachable.
+- **Assets sit behind Hostinger's CDN** (`server: hcdn`), which re-encodes PNGs — byte sizes differ from local, dimensions and colours survive intact — and caches for days. Hashed files under `assets/` are immune, but everything from `Public/` keeps a stable filename, so replacing an image in place can serve stale until the cache turns over. `index.html` came through fresh on deploy.
+
+Deep links work because the build writes a real `index.html` per route (see `emitSpaRoutes` in vite.config.js); there is no `.htaccess`. Adding a route to `src/App.jsx` means adding it to `SPA_ROUTES` too, or it 404s on direct load.
 
 ## Conventions / gotchas
 
